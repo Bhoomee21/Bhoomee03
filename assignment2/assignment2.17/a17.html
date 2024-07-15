@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form Elements</title>
+    <link rel="stylesheet" href="a17.css">
+</head>
+<body>
+    <h1>Styled Form Elements</h1>
+    
+    <form id="styled-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <fieldset>
+            <legend>Interests:</legend>
+            <label><input type="checkbox" name="interests" value="sports"> Sports</label><br>
+            <label><input type="checkbox" name="interests" value="music"> Music</label><br>
+            <label><input type="checkbox" name="interests" value="movies"> Movies</label><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Education:</legend>
+            <label><input type="radio" name="education" value="highschool"> High School</label><br>
+            <label><input type="radio" name="education" value="college"> College</label><br>
+            <label><input type="radio" name="education" value="university"> University</label><br>
+        </fieldset>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

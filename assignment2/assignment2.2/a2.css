@@ -1,0 +1,54 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(32, 6, 6);
+}
+
+/* Text color */
+.text-color {
+    color: #090b0c;
+}
+
+/* Solid background color */
+.solid-bg {
+    background-color: #3b2145;
+    padding: 20px;
+    color:rgb(243, 244, 246);
+    margin: 10px 0;
+}
+
+/* Gradient background */
+.gradient-bg {
+    background: linear-gradient(to right, #aa43c9, #e383c5);
+    padding: 20px;
+    color: rgb(11, 14, 19);
+    margin: 10px 0;
+}
+
+/* Background image */
+.image-bg {
+    background-image: url('cat.jpg');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 50px;
+    color: rgb(245, 245, 245);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Background image with repeat */
+.image-bg-repeat {
+    background-image: url('space.jpg');
+    background-repeat: no-repeat;
+    padding: 250px;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+/* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7efef;
+}
+
+header h1,
+header p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main {
+    background-color: #956464;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(83, 49, 49, 0.731);
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 rgb(59, 25, 25);
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}

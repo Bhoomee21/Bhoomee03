@@ -1,0 +1,37 @@
+/* Element selector */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Class selector */
+.content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* ID selector */
+#intro {
+    font-weight: bold;
+    font-size: 18px;
+    color: green;
+}
+
+/* Attribute selector */
+a[target="_blank"] {
+    color: red;
+    text-decoration: none;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    font-weight: bold;
+    color: purple;
+}

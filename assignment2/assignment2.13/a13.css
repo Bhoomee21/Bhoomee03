@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.transition-box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34dbb4;
+    color: rgb(4, 2, 2);
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition-property: background-color, color, height;
+}
+
+#box1 {
+    transition-duration: 1s;
+}
+
+#box2 {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#box3 {
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+.transition-box:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    height: 200px;
+}
